@@ -1,0 +1,54 @@
+
+.search-size {
+    position: relative;
+    left: -4%;
+}
+.margin-modif {
+    margin: 0px 10px;
+}
+.position-text {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.position-nav{
+    position: relative;
+    left: 6%;
+}
+.position-nav-user{
+    position: relative;
+    left: 11%;
+}
+.img-position {
+    position: relative;
+    right: 4%;
+}
+.img-position-dos {
+    position: relative;
+    right: 3%;
+}
+.box-perfil {
+    display: flex;
+    position: relative;
+    height: 10%;
+    width: 10%;
+    left: 3%;
+    align-self: center;
+}
+.carrrusel {
+    width: 1280px;
+    height: 500px;
+    overflow: hidden;
+    ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+    }
+    li {
+        list-style: none;
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
