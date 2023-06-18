@@ -1,0 +1,11 @@
+.animation {
+    animation: slide 1s infinite ease-in-out;
+}
+@keyframes slide {
+    0% {
+        translate: -1000px;
+    }
+    100% {
+        translate: 0px;
+    }
+}
